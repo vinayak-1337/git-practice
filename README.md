@@ -12,5 +12,18 @@ Create repo on github
    `git remote add origin <link>`
 5. push changes to remote
    `git push -u origin main`
-6. create a new branch
-   `git checkout -b <branch name>`
+6. create a new branch test-branch-1
+   `git checkout -b test-branch-1`
+7. checkout to main branch
+   `git checkout main`
+8. merge test-branch-1 into main
+   `git merge test-branch-1`
+9. view commit history
+   `git log`
+10. create new branch test-branch-2
+11. created new file4
+12. checkout to main branch
+13. add a new commit
+14. checkout to test-branch-2
+15. rebase main into test-branch-2
+    `git rebase main`
