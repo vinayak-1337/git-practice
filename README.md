@@ -22,4 +22,8 @@ Create repo on github
    `git log`
 10. create new branch test-branch-2
 11. created new file4
-12.
+12. checkout to main branch
+13. add a new commit
+14. checkout to test-branch-2
+15. rebase main into test-branch-2
+    `git rebase main`
