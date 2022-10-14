@@ -31,3 +31,5 @@ Create repo on github
     `git stash`
 17. restore stashed changes
     `git stash pop`
+18. list all the stash
+    `git stash list`
