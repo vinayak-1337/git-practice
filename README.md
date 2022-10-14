@@ -33,3 +33,6 @@ Create repo on github
     `git stash pop`
 18. list all the stash
     `git stash list`
+19. checkout to test-branch-2
+20. cherry pick the last commit in main branch
+    `git cherry-pick <hash>`
