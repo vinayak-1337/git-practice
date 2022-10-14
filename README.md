@@ -36,3 +36,10 @@ Create repo on github
 19. checkout to test-branch-2
 20. cherry pick the last commit in main branch
     `git cherry-pick <hash>`
+21. add changes and stash them three times
+22. change branch
+23. checkout to test-branch-2
+24. list all stash
+    `git stash list`
+25. restore a particular stash
+    `git stash <stash_id>`
