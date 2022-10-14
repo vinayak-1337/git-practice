@@ -27,3 +27,9 @@ Create repo on github
 14. checkout to test-branch-2
 15. rebase main into test-branch-2
     `git rebase main`
+16. stash changes with git stash
+    `git stash`
+17. restore stashed changes
+    `git stash pop`
+18. list all the stash
+    `git stash list`
